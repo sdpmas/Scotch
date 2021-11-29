@@ -1,0 +1,5 @@
+header:
+  - title:      Home
+    url:        index
+  - title:      GitHub
+    url:        https://github.com/kitian616/jekyll-TeXt-theme

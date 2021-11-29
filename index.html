@@ -1,0 +1,51 @@
+---
+layout: landing
+title: funcdef
+excerpt: >
+  Search for code from your IDE.
+permalink: ./index.html
+
+article_header:
+  actions:
+    - text: 'VS Code'
+      type: outline-info
+      url: https://github.com/sdpmas/funcdef 
+    - text: '<i class="fab fa-github"></i> GitHub'
+      type: outline-theme-dark
+      url: https://github.com/sdpmas/funcdef
+    - text: 'Learn More'
+      type: outline-success
+      url: workings
+  height: 100vh
+  theme: dark
+  background_image:
+    src: demos/ex1.gif
+    type: cover
+data:
+  sections:
+    - title: <h2>Faster</h2>
+      excerpt: A LOT faster than general purpose search engines!
+      image:
+        src: demos/ex2.gif
+        is_row: true
+        full_width: true
+        style: "max-width: 1200px;"
+    - title: <h2>Easy to navigate to the source code</h2>
+      excerpt: Navigate to the exact lines where the source code is located with a click.
+      image:
+        src: demos/ex3.gif
+        is_row: true
+        full_width: true
+        style: "max-width: 1200px;" 
+
+    - title: <h2>Features</h2>
+      children:
+        - title: Semantic Search 
+          excerpt: Semantic code search instead of textual matching for better results.
+        - title: Language Support
+          excerpt: Currently supports Python, Javascript, Java, and Go.
+        - title: Query
+          excerpt: Search using english queries or code itself.
+        - title: Permissive Licenses
+          excerpt: Only searches for code with explicitly permissive licenses.
+---
