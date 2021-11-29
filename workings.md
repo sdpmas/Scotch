@@ -1,5 +1,5 @@
 ---
-title: How does Scotch works? 
+title: How does Scotch work? 
 permalink: workings
 key: docs-workings
 ---
@@ -12,7 +12,7 @@ The workings of Scotch can be described in following three steps:
 
 ### Data Collection:
 
-Currently, Scotch only supports search over GitHub. Firstly, function definitions are extracted from the GitHub repositories of respective languages (Python, Javascript, Java, and Go as of now). After filtration and deduplication, the remaining set of function definitions forms a codebase to search over. The dataset of such functions will be open-sourced as Scotch dataset.
+Currently, Scotch supports search over GitHub. Firstly, function definitions are extracted from the GitHub repositories of respective languages (Python, Javascript, Java, and Go as of now). After filtration and deduplication, the remaining set of function definitions forms a codebase to search over. The dataset of such functions, which currently contains about 13M functions from four languages, will be open-sourced as Scotch dataset.
 
 ### Model:
 
