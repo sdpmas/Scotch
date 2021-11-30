@@ -6,7 +6,7 @@ key: docs-workings
 
 ## Introduction:
 
-Most general-purpose code search engines utilize keyword or textual matching between the query (natural language intent) and index to get search results.However, such matching ignores the semantic structure in code which represents the intent of the snippet and only utilizes keywords in the code or surrounding comments. Scotch is a semantic code search tool that uses neural networks to capture semantic relationships between the natural language query and code by representing both modalities in the same vector space.
+Most general-purpose code search engines utilize keyword or textual matching between the query (natural language intent) and index to get search results. However, such matching ignores the semantic structure in code that represents the intent of the snippet and only utilizes keywords in the code or surrounding comments. Scotch is a semantic code search tool that uses neural networks to capture semantic relationships between the natural language query and code by representing both modalities in the same vector space.
 The workings of Scotch can be described in the following three steps:
 
 
@@ -22,7 +22,7 @@ Following [CodeXGLUE](https://arxiv.org/pdf/2102.04664.pdf), we train a CodeBERT
 ### Search:
 
 We use the high-dimensional representations of functions in Scotch dataset (after some filtrations) as the index to search over. Given a query, it gets encoded into the vector representation using CodeBERT model, and [ScaNN algorithm](https://github.com/google-research/google-research/tree/master/scann) is used to calculate vector similarity between functions in the Scotch dataset and the query. Functions with high similarities are returned as the search results.
-We use the high-dimensional vector representations of functions in the Scotch dataset as the search database. A user query is encoded into the vector representation using CodeBERT model, and [ScaNN algorithm](https://github.com/google-research/google-research/tree/master/scann) is used to calculate vector similarity between functions in the Scotch dataset and the query. Functions with high similarities are returned as the search results.
+
 
 
 
