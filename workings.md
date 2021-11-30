@@ -12,7 +12,7 @@ The workings of Scotch can be described in the following three steps:
 
 ### Data Collection:
 
-Firstly, function definitions for various languages (Python, Javascript, Java, and Go) are extracted from GitHub repositories. After filtration and deduplication, the remaining set of function definitions forms a codebase to search over. This dataset, which currently contains about 13M functions from four languages, will be open-sourced as the Scotch dataset. Out of the 13M functions, about 4M functions have corresponding docstrings. The dataset is split into train, test and valid sets containing 80, 10 and 10 percent of the dataset respectively. We use only the functions with docstrings to train the code search model. The search is conducted over all functions in the Scotch dataset after some heuristic-based filtering. Currently, Scotch supports search over GitHub only.
+Firstly, function definitions for various languages (Python, Javascript, Java, and Go) are extracted from GitHub repositories. After filtration and deduplication, the remaining set of function definitions forms a codebase to search over. This dataset, which currently contains about 13M functions from four languages, will be open-sourced as the Scotch dataset. Out of the 13M functions, about 4M functions have corresponding docstrings. The dataset is split into train, test and valid sets containing 80, 10, and 10 percent of the dataset respectively. We use only the functions with docstrings to train the code search model. The search is conducted over all functions in the Scotch dataset after some heuristic-based filtering. Currently, Scotch supports search over GitHub only.
 
 ### Model:
 
