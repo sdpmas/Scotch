@@ -20,5 +20,14 @@ Following [CodeXGLUE](https://arxiv.org/pdf/2102.04664.pdf), we train a CodeBERT
 
 We use the high-dimensional representations of functions in Scotch dataset (after some filtrations) as the index to search over. Given a query, it gets encoded into the vector representation using CodeBERT model, and [ScaNN algorithm](https://github.com/google-research/google-research/tree/master/scann) is used to calculate vector similarity between functions in the Scotch dataset and the query. Functions with high similarities are returned as the search results.
 
+## Usage:
+On a comment line, type "search:" (capitalization and spacing do not matter) followed by your Query and press the return key.
+
+## Examples:
+### Python:
+\# search: YOUR_QUERY + return_key
+
+### Java, Javascript, Go: 
+// search: YOUR_QUERY + return_key
 
 ## Code and Dataset Coming Soon.
