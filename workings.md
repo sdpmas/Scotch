@@ -16,7 +16,7 @@ Firstly, function definitions for various languages (Python, Javascript, Java, a
 
 ### Model:
 
-Following [CodeXGLUE](https://arxiv.org/pdf/2102.04664.pdf), we train a CodeBERT model to align pairs of natural language (NL) intent and code. For this purpose, we assume that the docstring represents NL intent and use the (docstring, function) pairs from the Scotch dataset. We use the same CodeBERT model to encode both code and NL intent. The representation of CLS token is treated as the high-dimensional vector representation of code and NL for indexing. See [CodeXGLUE](https://arxiv.org/pdf/2102.04664.pdf) for more details.
+Following [CodeXGLUE](https://arxiv.org/pdf/2102.04664.pdf), we train a [CodeBERT](https://arxiv.org/abs/2002.08155) model to align pairs of natural language (NL) intent and code. For this purpose, we assume that the docstring represents NL intent and use the (docstring, function) pairs from the Scotch dataset. We use the same CodeBERT model to encode both code and NL intent. The representation of CLS token is treated as the high-dimensional vector representation of code and NL for indexing. See [CodeXGLUE](https://arxiv.org/pdf/2102.04664.pdf) for more details.
 
 
 ### Search:
