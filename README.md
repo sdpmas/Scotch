@@ -30,4 +30,15 @@ On a comment line, type "search:" (capitalization and spacing do not matter) fol
 ### Java, Javascript, Go: 
 // search: YOUR_QUERY + return_key
 
-## Code and Dataset Coming Soon.
+### Code and Dataset Coming Soon.
+---
+Cited as:
+```
+@article{dahal2021scotch,
+  title   = "Scotch: In-IDE Semantic Code Search Tool.",
+  author  = "Dahal, Samip and Maharana, Adyasha and Bansal, Mohit",
+   journal = "https://sdpmas.github.io/Scotch/workings"
+  year    = "2021",
+  url     = "https://sdpmas.github.io/Scotch/"
+}
+```
